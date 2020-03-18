@@ -5,6 +5,8 @@
 
 using namespace enviro;
 
+// A static object in the maze serve as goal
+
 class goalController : public Process, public AgentInterface {
 
     public:

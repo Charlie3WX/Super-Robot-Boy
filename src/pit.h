@@ -5,6 +5,8 @@
 
 using namespace enviro;
 
+// A static object on screen serve as pit
+
 class pitController : public Process, public AgentInterface {
 
     public:

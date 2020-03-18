@@ -5,6 +5,8 @@
 
 using namespace enviro;
 
+// A class invisible on screen serve as textbox to show instructions
+
 class coachController : public Process, public AgentInterface {
 
     public:

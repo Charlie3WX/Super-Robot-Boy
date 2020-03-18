@@ -53,37 +53,28 @@
                 "y": 300,
                 "theta": 0
             }
+        },
+
+        
+        {
+            "definition": "defs/coach2.json",
+            "style": {
+                "fill": "white",
+                "stroke": "white"
+            },
+            "position": {
+                "x": -180,
+                "y": 250,
+                "theta": 0
+            }
         }
         
     ],
     "statics": [
+        
         {
             "style": {
-                "fill": "gray",
-                "stroke": "none"
-            },
-            "shape": [
-                {
-                    "x": -350,
-                    "y": -200
-                },
-                {
-                    "x": -350,
-                    "y": 200
-                },
-                {
-                    "x": -340,
-                    "y": 200
-                },
-                {
-                    "x": -340,
-                    "y": -200
-                }
-            ]
-        },
-        {
-            "style": {
-                "fill": "gray",
+                "fill": "brown",
                 "stroke": "none"
             },
             "shape": [
@@ -107,7 +98,7 @@
         },
         {
             "style": {
-                "fill": "gray",
+                "fill": "brown",
                 "stroke": "none"
             },
             "shape": [
@@ -131,7 +122,7 @@
         },
         {
             "style": {
-                "fill": "gray",
+                "fill": "brown",
                 "stroke": "none"
             },
             "shape": [
@@ -155,7 +146,7 @@
         },
         {
             "style": {
-                "fill": "blue",
+                "fill": "brown",
                 "stroke": "none"
             },
             "shape": [
@@ -179,7 +170,7 @@
         },
         {
             "style": {
-                "fill": "blue",
+                "fill": "brown",
                 "stroke": "none"
             },
             "shape": [
@@ -203,7 +194,7 @@
         },
         {
             "style": {
-                "fill": "gray",
+                "fill": "brown",
                 "stroke": "none"
             },
             "shape": [
@@ -227,7 +218,7 @@
         },
         {
             "style": {
-                "fill": "gray",
+                "fill": "brown",
                 "stroke": "none"
             },
             "shape": [
@@ -251,7 +242,7 @@
         },
         {
             "style": {
-                "fill": "blue",
+                "fill": "brown",
                 "stroke": "none"
             },
             "shape": [
@@ -275,7 +266,7 @@
         },
         {
             "style": {
-                "fill": "blue",
+                "fill": "brown",
                 "stroke": "none"
             },
             "shape": [
@@ -300,7 +291,7 @@
 
         {
             "style": {
-                "fill": "green",
+                "fill": "red",
                 "stroke": "none"
             },
             "shape": [
@@ -375,7 +366,7 @@
 
         {
             "style": {
-                "fill": "gray",
+                "fill": "black",
                 "stroke": "none"
             },
             "shape": [
@@ -400,7 +391,7 @@
 
         {
             "style": {
-                "fill": "gray",
+                "fill": "red",
                 "stroke": "none"
             },
             "shape": [
@@ -474,7 +465,7 @@
 
         {
             "style": {
-                "fill": "green",
+                "fill": "blue",
                 "stroke": "none"
             },
             "shape": [
@@ -574,7 +565,7 @@
 
         {
             "style": {
-                "fill": "green",
+                "fill": "blue",
                 "stroke": "none"
             },
             "shape": [
@@ -622,9 +613,34 @@
             ]
         },
       
+        
         {
             "style": {
-                "fill": "gray",
+                "fill": "black",
+                "stroke": "none"
+            },
+            "shape": [
+                {
+                    "x": -350,
+                    "y": -200
+                },
+                {
+                    "x": 350,
+                    "y": -200
+                },
+                {
+                    "x": 350,
+                    "y": -190
+                },
+                {
+                    "x": -350,
+                    "y": -190
+                }
+            ]
+        },
+        {
+            "style": {
+                "fill": "black",
                 "stroke": "none"
             },
             "shape": [
@@ -648,7 +664,7 @@
         },
         {
             "style": {
-                "fill": "gray",
+                "fill": "black",
                 "stroke": "none"
             },
             "shape": [
@@ -657,16 +673,16 @@
                     "y": -200
                 },
                 {
-                    "x": 350,
-                    "y": -200
-                },
-                {
-                    "x": 350,
-                    "y": -190
-                },
-                {
                     "x": -350,
-                    "y": -190
+                    "y": 200
+                },
+                {
+                    "x": -340,
+                    "y": 200
+                },
+                {
+                    "x": -340,
+                    "y": -200
                 }
             ]
         }
