@@ -45,6 +45,7 @@ Install and run the code
 
 - Get [Docker](https://www.docker.com/) installed
 
-- Pull enviro image and mount your drive by doing
-   docker run -p80:80 -p8765:8765 -v /c/users/xwb19/documents/ece520/code/520-Assignments/roboto:/source -it klavins/enviro:v1.4 bash
+- Pull enviro image and mount your folder by doing
+
+   `docker run -p80:80 -p8765:8765 -v {$Your path} -it klavins/enviro:v1.4 bash`
 
