@@ -45,7 +45,23 @@ Install and run the code
 
 - Get [Docker](https://www.docker.com/) installed
 
-- Pull enviro image and mount your folder by doing
+- In your terminal, Pull enviro image and mount your folder by doing
 
    `docker run -p80:80 -p8765:8765 -v {$Your path} -it klavins/enviro:v1.4 bash`
+   swap `{$Your path}` with your desired mounting folder
+   
+- clone this repo and copy all the files to your mounted folder
+
+- In your terminal, make sure you are in the right path with all the files from this github repo and use the following command:
+
+   `esm start`
+   `make`
+
+- Make sure you don't use command `esm init`, which will clear all the files.
+
+- Go to http://localhost in your browser, and you will see the enviro client
+
+- Type in comman `enviro` to start the robot maze game!
+
+- Press Ctrl+C in terminal to break out the running program, then you can `make` again, or do `enviro` again to restart the client. 
 
