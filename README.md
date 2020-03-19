@@ -40,4 +40,4 @@ Key Challenges:
    
    The aim of this is to let the robot wait a little bit before turning immedieately when it senses a optional route to avoid hitting walls, I used the technique of comparing old front sensor value and real time front sensor value to achieve this.
 
-
+### install and run the code
