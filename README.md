@@ -40,4 +40,11 @@ Key Challenges:
    
    The aim of this is to let the robot wait a little bit before turning immedieately when it senses a optional route to avoid hitting walls, I used the technique of comparing old front sensor value and real time front sensor value to achieve this.
 
-### install and run the code
+Install and run the code
+---
+
+- Get [Docker](https://www.docker.com/) installed
+
+- Pull enviro image and mount your drive by doing
+   docker run -p80:80 -p8765:8765 -v /c/users/xwb19/documents/ece520/code/520-Assignments/roboto:/source -it klavins/enviro:v1.4 bash
+
