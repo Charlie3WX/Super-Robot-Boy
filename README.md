@@ -101,3 +101,8 @@ Remeber, use command `enviro` in terminal to start the program
    If our robot hero touches pit, it dies!
    
    If it touches the goal, it wins!
+
+Acknowedgments
+---
+
+All code written on my own or uses parts or get inspiration from [enviro](https://github.com/klavinslab/enviro) and [elma](https://github.com/klavinslab/elma)
