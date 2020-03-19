@@ -47,7 +47,7 @@ Install and run the code
 
 - In your terminal, Pull enviro image and mount your folder by doing
 
-   `docker run -p80:80 -p8765:8765 -v {$Your path} -it klavins/enviro:v1.4 bash`
+   `docker run -p80:80 -p8765:8765 -v {$Your path}:/source -it klavins/enviro:v1.4 bash`
    swap `{$Your path}` with your desired mounting folder
    
 - clone this repo and copy all the files to your mounted folder
