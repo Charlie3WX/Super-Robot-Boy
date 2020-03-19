@@ -66,3 +66,35 @@ Install and run the code
 
 - Press Ctrl+C in terminal to break out the running program, then you can `make` again, or do `enviro` again to restart the client. 
 
+Run, use and play with it!
+---
+
+- Controls:
+
+   After successfully compling and running the code, now you can play with it!
+
+   Press `space bar` to start/stop the robot
+
+   Press `r` to reset the robot
+
+   Press `a` or `d` to slightly turn the direction of the robot
+
+   Press `w` to accelerate, `s` to decelerate
+
+   Click on screen to teleport the robot
+
+- Lable to the top right of the robot indicates its state
+
+- Goal:
+
+   Start by just pressing `space bar` to let the robot move on its own, see if it can reaches the goal by itself
+   
+   If the robot freaks out, press `r` to reset it to starting point
+   
+   Help our robot hero out! Press `a` and `d` to slightly change its direction if it is too closed to one side of the wall
+   
+- Rules:
+
+   If our robot hero touches pit, it dies!
+   
+   If it touches the goal, it wins!
