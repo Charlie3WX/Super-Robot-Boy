@@ -110,7 +110,7 @@ Remeber, use command `enviro` in terminal to start the program
    
    If it touches the goal, it wins!
    
-There are some randomness to how the robot turn, because of the difference in sampling rate of the `update` function and sensor values, try running the program more than 1 time, if you are lucky, the robot will get to the goal on its own, if he couldn't, be kind and help him a little bit on its journey by pressing `a` and `d` to adjust its facing direction.
+There are some randomness to how the robot turn, because of the difference in sampling rate of the `update` function and sensor values, try running the program more than 1 time (using `r` to restart and run again), if you are lucky, the robot will get to the goal on its own, if he couldn't, be kind and help him a little bit on its journey by pressing `a` and `d` to adjust its facing direction.
 
 Be aware that changing the speed of the robot may be super cool, it could also mess up the angle it turns.
 
