@@ -106,6 +106,10 @@ There are some randomness to how the robot turn, because of the difference in sa
 
 Be aware that changing the speed of the robot may be super cool, it could also mess up the angle it turns.
 
+Contact Me!
+---
+If you have any issue regarding running the program or anything, feel free to email me at [wenboxu@uw.edu]
+
 Acknowedgments
 ---
 
