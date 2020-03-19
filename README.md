@@ -31,5 +31,13 @@ Key Challenges:
    To solve this, I gave the user some control over the direction of the robot, so the user could help the robot just a little bit when the robot is too close to the side walls.
    
    But this is a compromise nontheless, in an ideal situation the robot can be fully autonomous and can reach the goal every time, if I had more time I could make the robot to keep itself at the center at all time. Anyone is welcomed to modify the code to implement a better behavior.
+   
+- Initially, the program is based on statemachine, exiting and entering different states. But in order to use various of keyboard and mouse commands, the program is overhauled to inherent from process instead. After the change, the essence of the state machine logic is till there, but implemented using many if conditions.
+
+- A major challenge comes when how the robot is able to deal with dead ends. 
+
+   Our robot hero notice the dead_end situation by checking if front, left and right sensor are all smaller than a constant value, then turns 180 degree to go back. Since initilially the robot is set to ignore any optional route by default, then after encountering a dead end and goes back, it will take any optional route that's sensed. Once it noticed for example, there is a optional route to its left on the way back, if we turn immediately then there is a high chance that the robot will hit the wall. To solve this, various of conditions are implemented so that when it notice a optional route, first take note of to turn next or right, then the robot agent will take note of the front sensor value, and after front sensor value has decreased by a constant (set to be 10) then turn. 
+   
+   The aim of this is to let the robot wait a little bit before turning immedieately when it senses a optional route to avoid hitting walls, I used the technique of comparing old front sensor value and real time front sensor value to achieve this.
 
 
