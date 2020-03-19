@@ -55,6 +55,7 @@ Install and run the code
 - In your terminal, make sure you are in the right path with all the files from this github repo and use the following command:
 
    `esm start`
+   
    `make`
 
 - Make sure you don't use command `esm init`, which will clear all the files.
