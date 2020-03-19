@@ -1,7 +1,7 @@
 {
     "name": "pit",
     "type": "dynamic",
-    "description": "Replace this string with a description",
+    "description": "This is the pit object, if robot reaches it, it loses",
     "shape": [
         { "x": -10, "y": 10 },
         { "x": 10, "y": 10 },

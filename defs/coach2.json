@@ -1,7 +1,7 @@
 {
     "name": "coach2",
     "type": "dynamic",
-    "description": "Replace this string with a description",
+    "description": "This is a static object to show text on screen",
     "shape": [
         { "x": -10, "y": 10 },
         { "x": 10, "y": 10 },
