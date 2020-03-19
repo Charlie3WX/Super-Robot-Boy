@@ -70,9 +70,9 @@ Install and run the code
 
 - Go to http://localhost in your browser, and you will see the enviro client
 
-- Type in comman `enviro` to start the robot maze game!
+- Type in command `enviro` in your terminal to start the program!
 
-- Press Ctrl+C in terminal to break out the running program, then you can `make` again, or do `enviro` again to restart the client. 
+- Press Ctrl+C in terminal to break out the running program, then you can `make` again if any change is made in the code, or do `enviro` again to restart the client. 
 
 Run, use and play with it!
 ---
