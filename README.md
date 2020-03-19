@@ -69,9 +69,12 @@ Install and run the code
 Run, use and play with it!
 ---
 
+After successfully compling and running the code, now you can play with it!
+
+Remeber, use command `enviro` in terminal to start the program
+
 - Controls:
 
-   After successfully compling and running the code, now you can play with it!
 
    Press `space bar` to start/stop the robot
 
