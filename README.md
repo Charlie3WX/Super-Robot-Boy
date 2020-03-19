@@ -108,7 +108,7 @@ Be aware that changing the speed of the robot may be super cool, it could also m
 
 Contact Me!
 ---
-If you have any issue regarding running the program or anything, feel free to email me at [wenboxu@uw.edu]
+If you have any issue regarding running the program or anything, feel free to email me at wenboxu@uw.edu
 
 Acknowedgments
 ---
